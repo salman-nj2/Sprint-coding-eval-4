@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        header{
+            height: 50px;
+            background-color: darksalmon;
+            border-radius: 25px;
+        }
+        #list{
+            display: flex;
+            
+        }
+        ul > a{
+            margin-left: 45px;
+            font-family: sans-serif;
+            font-size: 21px;
+            font-weight: bolder;
+            text-decoration: none;
+            color: black;
+        }
+    ul{
+        float: right;
+        margin-right: 50px;
+    }
+    header > img{
+        margin: 10px;
+    }
+
+    form{
+        width : 15%;
+        padding: 10px;
+        margin:auto;
+    }
+    input {
+        margin: 10px;
+        height: 30px;
+    }
+    button {
+        margin-left: 46%;
+        height: 30px;
+    }
+    h1{
+        font-family: sans-serif;
+        width: 22%;
+        margin-left: 610px;
+    }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAyElEQVRIS+2W4QnCMBCFv26ik6iT2E6io+gGOoGO0BEcpTxooYTaerlosCT/Apd8uXcv8CoyrSoTlxC8AY79Y66A9jvn41rgHt4RgvfAoy86ANqfnGAdvwDN+J5fgcXcAq8BbgHH+CFU8PmXYHWxZDgZU7Im7fj8geFkTMm6DrDldyXtOBu4mGtK+q+4OtuMC3hOgXX84zLjMuOxAklcbTHVVG102POAFYXquXirAD8UKAtrL7k8S4H+thToPQDT2ZisbAK8K+4AoT5uH+EgdioAAAAASUVORK5CYII="/>
+        <ul id="list">
+            <a href = "./SprintSignup.html">Sign up</a>
+            <a href = "./SprintLogin.html">Log in</a>
+            <a href = "./SprintMenu.html">Menu</a>
+        </ul>
+    </header>
+    <h1>Log In</h1>
+
+    <form id="form">
+
+<input type="email" id="email" placeholder="Email Address">
+<input type="password" id="password" placeholder="Password">
+    </form>
+
+    <button onclick="login()">Log In</button>
+</body>
+</html>
+<script src="SprintLogin.js"></script>

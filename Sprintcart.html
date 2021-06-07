@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<style>
+    #cart
+    {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        margin: 50px 10px 10px 10px;
+        background-color: mistyrose;
+        border-radius: 25px;
+    }
+
+    #cart img{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25%;
+    }
+    #cart p{
+        font-size: 25px;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+    #cart p:nth-child(4){
+        font-size: 15px;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        width: 30%;
+        margin: auto;
+    }
+    button{
+        font-family: sans-serif;
+        height: 50px;
+        width: 150px;
+        font-size: 15px;
+        font-weight: bolder;
+        background-color: darksalmon;
+        border-radius: 8px;
+        border: none;
+        margin-left: 40%;
+        cursor: pointer;
+    }
+
+</style>
+<body>
+    <div id="cart"></div>
+    <button onclick="submit()">Submit Order</button>
+</body>
+</html>
+
+<script src ="Sprintcart.js"></script>
